@@ -5,5 +5,7 @@ Opens putty console with different background color then all previously opened c
 
 Algorithm is simple - each new color is like previous one, but rotated by golden angle (http://en.wikipedia.org/wiki/Fibonacci_number#In_nature) in HLS color space (http://en.wikipedia.org/wiki/HLS_color_space). Algorithm provides beautiful colors different each time you open putty console.
 
+Screenshot: https://raw.github.com/un1q/colorfulPutty/master/wiki/screenshot.png
+
 usage:
 powershell.exe &'colorfulPutty.ps1'
